@@ -1,5 +1,3 @@
-import 'package:flutter/foundation.dart';
-
 class GeneralException implements Exception {
   final String message;
 

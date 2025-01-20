@@ -1,0 +1,38 @@
+{"protocolVersion":"0.1.1","runnerVersion":null,"pid":9932,"type":"start","time":0}
+{"suite":{"id":0,"platform":"vm","path":"D:/coding/Project_Flutter/water_tracker/test/profile/remote_data_test.dart"},"type":"suite","time":0}
+{"test":{"id":1,"name":"loading D:/coding/Project_Flutter/water_tracker/test/profile/remote_data_test.dart","suiteID":0,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":1}
+{"count":1,"time":6,"type":"allSuites"}
+
+[{"event":"test.startedProcess","params":{"vmServiceUri":null,"observatoryUri":null}}]
+{"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":12160}
+{"group":{"id":2,"suiteID":0,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":11,"line":null,"column":null,"url":null},"type":"group","time":12164}
+{"group":{"id":3,"suiteID":0,"parentID":2,"name":"profile remote data source","metadata":{"skip":false,"skipReason":null},"testCount":4,"line":52,"column":3,"url":"file:///D:/coding/Project_Flutter/water_tracker/test/profile/remote_data_test.dart"},"type":"group","time":12166}
+{"group":{"id":4,"suiteID":0,"parentID":3,"name":"profile remote data source getUSer","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":53,"column":5,"url":"file:///D:/coding/Project_Flutter/water_tracker/test/profile/remote_data_test.dart"},"type":"group","time":12166}
+{"test":{"id":5,"name":"profile remote data source getUSer berhasil ","suiteID":0,"groupIDs":[2,3,4],"metadata":{"skip":false,"skipReason":null},"line":54,"column":7,"url":"file:///D:/coding/Project_Flutter/water_tracker/test/profile/remote_data_test.dart"},"type":"testStart","time":12166}
+{"testID":5,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":12228}
+{"test":{"id":6,"name":"profile remote data source getUSer gagal ","suiteID":0,"groupIDs":[2,3,4],"metadata":{"skip":false,"skipReason":null},"line":67,"column":7,"url":"file:///D:/coding/Project_Flutter/water_tracker/test/profile/remote_data_test.dart"},"type":"testStart","time":12229}
+{"testID":6,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":12234}
+{"group":{"id":7,"suiteID":0,"parentID":3,"name":"profile remote data source getAllUSer","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":79,"column":5,"url":"file:///D:/coding/Project_Flutter/water_tracker/test/profile/remote_data_test.dart"},"type":"group","time":12235}
+{"test":{"id":8,"name":"profile remote data source getAllUSer berhasil ","suiteID":0,"groupIDs":[2,3,7],"metadata":{"skip":false,"skipReason":null},"line":80,"column":7,"url":"file:///D:/coding/Project_Flutter/water_tracker/test/profile/remote_data_test.dart"},"type":"testStart","time":12235}
+{"testID":8,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":12241}
+{"test":{"id":9,"name":"profile remote data source getAllUSer gagal ","suiteID":0,"groupIDs":[2,3,7],"metadata":{"skip":false,"skipReason":null},"line":93,"column":7,"url":"file:///D:/coding/Project_Flutter/water_tracker/test/profile/remote_data_test.dart"},"type":"testStart","time":12242}
+{"testID":9,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":12246}
+{"group":{"id":10,"suiteID":0,"parentID":2,"name":"profile remote data source implementation","metadata":{"skip":false,"skipReason":null},"testCount":3,"line":107,"column":3,"url":"file:///D:/coding/Project_Flutter/water_tracker/test/profile/remote_data_test.dart"},"type":"group","time":12247}
+{"group":{"id":11,"suiteID":0,"parentID":10,"name":"profile remote data source implementation getUSer","metadata":{"skip":false,"skipReason":null},"testCount":3,"line":108,"column":5,"url":"file:///D:/coding/Project_Flutter/water_tracker/test/profile/remote_data_test.dart"},"type":"group","time":12247}
+{"test":{"id":12,"name":"profile remote data source implementation getUSer berhasil ","suiteID":0,"groupIDs":[2,10,11],"metadata":{"skip":false,"skipReason":null},"line":109,"column":7,"url":"file:///D:/coding/Project_Flutter/water_tracker/test/profile/remote_data_test.dart"},"type":"testStart","time":12247}
+{"testID":12,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":12263}
+{"test":{"id":13,"name":"profile remote data source implementation getUSer gagal 500 ","suiteID":0,"groupIDs":[2,10,11],"metadata":{"skip":false,"skipReason":null},"line":128,"column":7,"url":"file:///D:/coding/Project_Flutter/water_tracker/test/profile/remote_data_test.dart"},"type":"testStart","time":12263}
+{"testID":13,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":12271}
+{"test":{"id":14,"name":"profile remote data source implementation getUSer gagal 404","suiteID":0,"groupIDs":[2,10,11],"metadata":{"skip":false,"skipReason":null},"line":141,"column":7,"url":"file:///D:/coding/Project_Flutter/water_tracker/test/profile/remote_data_test.dart"},"type":"testStart","time":12272}
+{"testID":14,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":12278}
+{"group":{"id":15,"suiteID":0,"parentID":2,"name":"profile remote data source implementation","metadata":{"skip":false,"skipReason":null},"testCount":4,"line":155,"column":3,"url":"file:///D:/coding/Project_Flutter/water_tracker/test/profile/remote_data_test.dart"},"type":"group","time":12278}
+{"group":{"id":16,"suiteID":0,"parentID":15,"name":"profile remote data source implementation getAllUSer","metadata":{"skip":false,"skipReason":null},"testCount":4,"line":156,"column":5,"url":"file:///D:/coding/Project_Flutter/water_tracker/test/profile/remote_data_test.dart"},"type":"group","time":12278}
+{"test":{"id":17,"name":"profile remote data source implementation getAllUSer berhasil ","suiteID":0,"groupIDs":[2,15,16],"metadata":{"skip":false,"skipReason":null},"line":157,"column":7,"url":"file:///D:/coding/Project_Flutter/water_tracker/test/profile/remote_data_test.dart"},"type":"testStart","time":12279}
+{"testID":17,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":12287}
+{"test":{"id":18,"name":"profile remote data source implementation getAllUSer gagal 500 ","suiteID":0,"groupIDs":[2,15,16],"metadata":{"skip":false,"skipReason":null},"line":180,"column":7,"url":"file:///D:/coding/Project_Flutter/water_tracker/test/profile/remote_data_test.dart"},"type":"testStart","time":12287}
+{"testID":18,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":12295}
+{"test":{"id":19,"name":"profile remote data source implementation getAllUSer gagal empty","suiteID":0,"groupIDs":[2,15,16],"metadata":{"skip":false,"skipReason":null},"line":197,"column":7,"url":"file:///D:/coding/Project_Flutter/water_tracker/test/profile/remote_data_test.dart"},"type":"testStart","time":12295}
+{"testID":19,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":12302}
+{"test":{"id":20,"name":"profile remote data source implementation getAllUSer gagal 404","suiteID":0,"groupIDs":[2,15,16],"metadata":{"skip":false,"skipReason":null},"line":216,"column":7,"url":"file:///D:/coding/Project_Flutter/water_tracker/test/profile/remote_data_test.dart"},"type":"testStart","time":12303}
+{"testID":20,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":12310}
+{"success":true,"type":"done","time":12360}
