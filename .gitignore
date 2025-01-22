@@ -11,6 +11,7 @@
 .svn/
 .swiftpm/
 migrate_working_dir/
+genhtml.perl
 
 # IntelliJ related
 *.iml
@@ -31,6 +32,7 @@ migrate_working_dir/
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
+genhtml.perl
 /build/
 
 # Symbolication related
