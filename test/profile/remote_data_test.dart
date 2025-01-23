@@ -9,7 +9,13 @@
 //flutter test --coverage
 
 //generate HTML
-// >> genhtml coverage/lcov.info -o coverage/html --legend -t "Clean Architecture by Dan" --fuction-coverage
+// >> perl C:\ProgramData\chocolatey\lib\lcov\tools\bin\genhtml genhtml coverage/lcov.info -o coverage/html --legend -t "Clean Architecture by Dan" --function-coverage
+
+//open genhtml
+// start coverage\html\index.html
+
+//remove coverage pilihan
+// lcov --remove-coverage\lcov.info "D:\coding\Project_Flutter\water_tracker\lib\core\error\exception.dart" -o coverage\lcov.info
 
 import 'dart:convert';
 import 'package:flutter_test/flutter_test.dart';
