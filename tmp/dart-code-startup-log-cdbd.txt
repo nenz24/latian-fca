@@ -346,3 +346,6 @@ Flutter (3.27.2): C:\flutter (No device)
 [12:10:46 AM] [General] [Info] Returning cached promise for getSupportedPlatforms()
 [12:10:57 AM] [General] [Info] Returning cached results for project search
 [12:11:49 AM] [General] [Info] Returning cached results for project search
+[4:17:30 AM] [General] [Info] Took 210ms to search for projects (5 levels)
+[4:17:30 AM] [General] [Info] Took 9ms to filter out excluded projects (0 exclusion rules)
+[4:17:30 AM] [General] [Info] Returning cached results for project search
