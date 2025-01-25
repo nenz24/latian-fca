@@ -1,7 +1,18 @@
+import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
-import 'package:water_tracker/core/error/routes/my_router.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:hive_flutter/hive_flutter.dart';
+import 'package:water_tracker/features/profile/data/models/model_profile.dart';
+import 'core/error/routes/my_router.dart';
+import 'observer.dart';
 
-void main() => runApp(MyApp());
+void main() async {
+  await Hive.initFlutter();
+
+  Hive.registerAdapter(ProfileModelAdapter());
+  Bloc.observer = MyObserver();
+  runApp(const MyApp());
+}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -9,7 +20,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      routerConfig: MyRouter().router, //go-router
+      routerConfig: MyRouter().router,
     );
   }
 }

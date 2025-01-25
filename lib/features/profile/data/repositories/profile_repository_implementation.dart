@@ -11,12 +11,12 @@ import 'package:connectivity_plus/connectivity_plus.dart';
 class ProfileRepositoryImplementation extends ProfileRepository {
   final ProfileRemoteDataSource profileRemoteDataSource;
   final ProfileLocalDataSource profileLocalDataSource;
-  final HiveInterface hive;
+  final Box box;
 
   ProfileRepositoryImplementation(
       {required this.profileLocalDataSource,
       required this.profileRemoteDataSource,
-      required this.hive});
+      required this.box});
 
   @override
   Future<Either<Failure, List<Profile>>> getAllUser(int page) async {
@@ -33,7 +33,6 @@ class ProfileRepositoryImplementation extends ProfileRepository {
         // available network
         List<ProfileModel> hasil =
             await profileRemoteDataSource.getAllUser(page);
-        var box = hive.box('profile_box');
         box.put('getAllUser', hasil);
         return Right(hasil);
       }
@@ -55,7 +54,6 @@ class ProfileRepositoryImplementation extends ProfileRepository {
       } else {
         // available network
         ProfileModel hasil = await profileRemoteDataSource.getUser(id);
-        var box = hive.box('profile_box');
         box.put('getUser', hasil);
         return Right(hasil);
       }
