@@ -7,10 +7,10 @@ abstract class ProfileLocalDataSource {
   Future<ProfileModel> getUser(int id);
 }
 
-class ProfileRemoteDataSourceImplementation extends ProfileLocalDataSource {
+class ProfileLocalDataSourceImplementation extends ProfileLocalDataSource {
   final Box box;
 
-  ProfileRemoteDataSourceImplementation({required this.hive});
+  ProfileLocalDataSourceImplementation({required this.box});
   @override
   Future<List<ProfileModel>> getAllUser(int page) async {
     return box.get('getAllUser');
