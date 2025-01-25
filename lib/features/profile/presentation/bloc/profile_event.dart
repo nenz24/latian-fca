@@ -1,8 +1,5 @@
 part of 'profile_bloc.dart';
 
-abstract class ProfileEvent extends Equatable {
-  const ProfileEvent();
+abstract class ProfileEvent extends Equatable {}
 
-  @override
-  List<Object> get props => [];
-}
+class ProfileEventGetAllUser extends ProfileEvent {}
